@@ -69,11 +69,17 @@
     <div class="row">
     <div class="col-sm-8 g-4"> 
    <div class="adf d-flex gap-2 p-5"> 
-    <div class=" me-auto fs-1"> date</div>
+    <div class=" me-auto fs-1"> 
+
+    <?php echo date('Y-m-d'); ?>
+
+    </div>
 
     
     <div class=" ms-auto fs-1 ">
        <?php 
+       
+       echo  $_SESSION['adminRole'];
        
        ?>
  
