@@ -23,7 +23,7 @@ if(isset($_POST['fileSubmit'])){
     }
     catch(PDOException $e){
          echo $e->getMessage();
-         header("location: ../files.php");
+         header("location: ../files.php?success");
     }
   
 }

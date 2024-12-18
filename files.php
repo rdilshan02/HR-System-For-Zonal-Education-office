@@ -120,7 +120,7 @@
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
-                    <option value="4">Three</option>
+                    <option value="4">Four</option>
                   </select>
                   <br>
   
@@ -131,6 +131,13 @@
                 
                 
               </form>
+
+              <?php
+             if(isset($_GET['success'])){
+              echo "added";
+             }
+             
+             ?>
         </div>
     
     
